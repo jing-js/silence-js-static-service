@@ -1,0 +1,31 @@
+{
+  "name": "silence-static-server",
+  "version": "1.0.0",
+  "description": "simple static server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "silence-static-server": "./bin/silence-static-server.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "mime-db": "^1.24.0",
+    "silence-js-log-file": "^1.0.2",
+    "silence-js-util": "^1.0.0"
+  },
+  "devDependencies": {
+    "silence-js-log-console": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jing-js/silence-js-static-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jing-js/silence-js-static-service/issues"
+  },
+  "homepage": "https://github.com/jing-js/silence-js-static-service#readme",
+  "author": "YuhangGe <abeyuhang@gmail.com>",
+  "license": "ISC"
+}
